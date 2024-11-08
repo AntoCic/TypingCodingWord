@@ -2,17 +2,13 @@
   <header>
     <div class="container">
       <nav class="row align-items-center my-1">
-        <div class="col">
+        <div class="col-auto">
           <RouterLink to="/">
             <img src="/img/logo.png" class="logo align-text-top" alt="Vue logo" />
           </RouterLink>
         </div>
-        <div class="col-auto">
-          <!-- <button class="btn btn-outline-light border-0 px-1 me-1">
-            <span class="material-symbols-outlined">
-              person
-            </span>
-          </button> -->
+        <div class="col">
+          <h1 class="f-monofett">TypingCodingWord</h1>
         </div>
       </nav>
     </div>
@@ -25,7 +21,7 @@
 
 <style lang="scss" scoped>
 .logo {
-  height: 6em;
+  height: 4em;
   will-change: filter;
   transition: filter 300ms;
 }
